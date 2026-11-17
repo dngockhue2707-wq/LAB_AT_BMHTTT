@@ -1,5 +1,6 @@
 Họ và Tên: Đặng Ngọc Khuê 
 Mã số sinh viên: 1150070024 
 Tên bài Lab: LAB 2 MÃ HÓA ĐỐI XỨNG HIỆN ĐẠI
-Nội dung đã thực hiện: 
-Kết quả thực hiện:
+Nội dung đã thực hiện: Đã tiến hành cấu hình môi trường lập trình Java trên NetBeans, tạo cơ sở dữ liệu và kết nối SQL Server. Xây dựng các lớp hỗ trợ xử lý dữ liệu, lưu lịch sử và thiết kế giao diện chương trình. Đồng thời, thực hiện bài 2.1 về mã hóa DES và bài 2.2 về mã hóa TripleDES, bao gồm các chức năng mã hóa, giải mã, lưu và mở tệp dữ liệu.
+Kết quả thực hiện: Đã kết nối thành công chương trình Java với cơ sở dữ liệu SQL Server, xây dựng được giao diện kết nối và xem lịch sử thao tác. Chức năng mã hóa, giải mã DES hoạt động đúng và đã kiểm tra các trường hợp khóa không hợp lệ. Hoàn thành phần lập trình TripleDES và xây dựng các chức năng theo yêu cầu bài thực hành. Chức năng tự động lưu lịch sử mã hóa vào cơ sở dữ liệu sẽ tiếp tục được kiểm tra khi tích hợp chương trình.
+Hướng dẫn chạy chương trình: Để chạy chương trình, trước tiên mở NetBeans và chọn Open Project để mở dự án LAB2_MaHoaHienDai. Tiếp theo, khởi động SQL Server và kiểm tra cơ sở dữ liệu LAB2_MaHoaHienDai. Trong NetBeans, nhấp phải vào project và chọn Clean and Build để biên dịch. Sau đó, chạy file frm_KetNoiSQL.java, nhập thông tin kết nối gồm Server 127.0.0.1, Port 1433, tên cơ sở dữ liệu và tài khoản SQL Server, rồi nhấn Test Connection. Để thực hiện mã hóa và giải mã, mở file frm_DES.java hoặc frm_TripleDES.java và chọn Run File. Tại giao diện chương trình, nhập nội dung và khóa tương ứng, sau đó sử dụng các chức năng Encrypt, Decrypt, Save File và Open File để thực hiện và kiểm tra kết quả.
